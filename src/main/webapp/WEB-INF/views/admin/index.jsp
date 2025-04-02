@@ -169,7 +169,7 @@
         <!--**********************************
             Footer start
         ***********************************-->
-        <div class="footer" style="bottom: 0;">
+        <div class="footer" style="bottom: 0!important;">
             <div class="copyright">
                 <p>Copyright © Designed &amp; Developed by <a href="#" target="_blank">Quixkit</a> 2019</p>
             </div>
