@@ -6,7 +6,7 @@
   <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
   <meta name="author" content="themefisher.com">
 
-  <title>Novena- Health & Care Medical template</title>
+  <title>Quản lý đề tài</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/client/images/favicon.ico" />
@@ -25,53 +25,46 @@
 
 <body id="top">
 <header>
-	<nav class="navbar-expand-lg " id="navbar" >
+	<nav class="navbar-expand-lg" id="navbar">
 		<div class="collapse navbar-collapse" id="navbarmain">
-		<div class="container container1" >
-     		<a class="navbar-brand" href="index.html">
-				<img src="${pageContext.request.contextPath}/client/images/z6425388337729_4b57f431a7c60d62672c90a6b28f44ee.jpg" alt="" class="img-fluid">
+		<div class="container container1">
+			<a class="navbar-brand" href="index.html">
+			<img src="${pageContext.request.contextPath}/client/images/z6425388337729_4b57f431a7c60d62672c90a6b28f44ee.jpg" alt="" class="img-fluid">
 			</a>
 			<ul class="navbar-nav">
-			  <li class="nav-item active">
+			<li class="nav-item active">
 				<a class="nav-link" href="index.html">Trang chủ</a>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-
-			    <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="department.html">Departments</a></li>
-						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
-					</ul>
-			  	</li>
-
-			  	<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-						<li><a class="dropdown-item" href="appoinment.html">Appoinment</a></li>
-					</ul>
-			  	</li>
-
-			   <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  	</li>
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</li>
+			<li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+			<li class="nav-item"><a class="nav-link" href="service.html">Ngành đào tạo</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cơ sở đào tạo <i class="icofont-thin-down"></i></a>
+				<ul class="dropdown-menu" aria-labelledby="dropdown02">
+				<li><a class="dropdown-item" href="department.html">Cơ sở Quận 1</a></li>
+				<li><a class="dropdown-item" href="department-single.html">Cơ sở Thủ Đức</a></li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Giảng viên <i class="icofont-thin-down"></i></a>
+				<ul class="dropdown-menu" aria-labelledby="dropdown03">
+				<li><a class="dropdown-item" href="doctor.html">Danh sách giảng viên</a></li>
+				<li><a class="dropdown-item" href="doctor-single.html">Thông tin giảng viên</a></li>
+				<li><a class="dropdown-item" href="appoinment.html">Lịch làm việc</a></li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin tức <i class="icofont-thin-down"></i></a>
+				<ul class="dropdown-menu" aria-labelledby="dropdown05">
+				<li><a class="dropdown-item" href="blog-sidebar.html">Tin tức mới</a></li>
+				<li><a class="dropdown-item" href="blog-single.html">Chi tiết tin tức</a></li>
+				</ul>
+			</li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
 			</ul>
-		  </div>
 		</div>
 		</div>
 	</nav>
-</div>	
 </header>
-	
 
 
 
@@ -203,92 +196,39 @@
 		</div>
 	</div>
 </section>
-<section class="section testimonial-2 gray-bg">
-	<div class="container"></div>
+<section class="section news-section gray-bg">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-12 testimonial-wrap-2">
-				<div class="testimonial-block style-2  gray-bg">
-					<i class="icofont-quote-right"></i>
+		<h2 class="section-title text-center mb-5">TIN TỨC - SỰ KIỆN</h2>
+		<div class="row">
+			<div class="col-lg-6 mb-4">
+				<div class="news-card bg-white rounded-lg overflow-hidden shadow">
 
-					<div class="testimonial-thumb">
-						<img src="${pageContext.request.contextPath}/client/images/team/test-thumb1.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info ">
-						<h4>Amazing service!</h4>
-						<span>John Partho</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
+					<div class="p-4">
+						<span class="text-sm text-gray-500">25/05/2023</span>
+						<h3 class="text-lg font-semibold mt-2 mb-2">Thông báo tuyển sinh đại học chính quy năm 2023</h3>
+						<p class="text-gray-600 text-sm">Học viện Công nghệ Bưu chính Viễn thông thông báo tuyển sinh đại học chính quy năm 2023 với 5 ngành đào tạo...</p>
+						<a href="#" class="inline-block mt-3 text-blue-600 font-medium text-sm">Xem thêm →</a>
 					</div>
 				</div>
+			</div>
+			<div class="col-lg-6 mb-4">
+				<div class="news-card bg-white rounded-lg overflow-hidden shadow">
 
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="${pageContext.request.contextPath}/client/images/team/test-thumb2.jpg" alt="" class="img-fluid">
+					<div class="p-4">
+						<span class="text-sm text-gray-500">15/04/2023</span>
+						<h3 class="text-lg font-semibold mt-2 mb-2">Hội thảo khoa học quốc tế về công nghệ thông tin</h3>
+						<p class="text-gray-600 text-sm">Học viện tổ chức hội thảo khoa học quốc tế với chủ đề "Xu hướng phát triển công nghệ thông tin trong kỷ nguyên số"...</p>
+						<a href="#" class="inline-block mt-3 text-blue-600 font-medium text-sm">Xem thêm →</a>
 					</div>
-
-					<div class="client-info">
-						<h4>Expert doctors!</h4>
-						<span>Mullar Sarth</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="${pageContext.request.contextPath}/client/images/team/test-thumb3.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Good Support!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="${pageContext.request.contextPath}/client/images/team/test-thumb4.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Nice Environment!</h4>
-						<span>Partho Sarothi</span>
-						<p class="mt-4">
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="${pageContext.request.contextPath}/client/images/team/test-thumb1.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Modern Service!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					<i class="icofont-quote-right"></i>
 				</div>
 			</div>
 		</div>
+		<div class="text-center mt-4">
+			<a href="#" class="btn btn-main btn-round-full">Xem tất cả tin tức</a>
+		</div>
 	</div>
 </section>
+
 
 <!-- footer Start -->
 <footer class="footer section gray-bg">
@@ -328,53 +268,53 @@
 
 			<div class="col-lg-2 col-md-6 col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Department</h4>
+					<h4 class="text-capitalize mb-3">Ngành đào tạo</h4>
 					<div class="divider mb-4"></div>
 
 					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Surgery </a></li>
-						<li><a href="#">Wome's Health</a></li>
-						<li><a href="#">Radiology</a></li>
-						<li><a href="#">Cardioc</a></li>
-						<li><a href="#">Medicine</a></li>
+						<li><a href="#">Công nghệ thông tin</a></li>
+						<li><a href="#">Điện tử viễn thông</a></li>
+						<li><a href="#">Kế toán</a></li>
+						<li><a href="#">Báo chí</a></li>
+						<li><a href="#">Thương mại điện tử</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="col-lg-2 col-md-6 col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Support</h4>
+					<h4 class="text-capitalize mb-3">Hỗ trợ</h4>
 					<div class="divider mb-4"></div>
 
 					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Company Support </a></li>
-						<li><a href="#">FAQuestions</a></li>
-						<li><a href="#">Company Licence</a></li>
+						<li><a href="#">Điều khoản sử dụng</a></li>
+						<li><a href="#">Chính sách bảo mật</a></li>
+						<li><a href="#">Hỗ trợ khách hàng</a></li>
+						<li><a href="#">Câu hỏi thường gặp</a></li>
+						<li><a href="#">Giấy phép hoạt động</a></li>
 					</ul>
 				</div>
-				</div>
+			</div>
 
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="widget widget-contact mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Get in Touch</h4>
+					<h4 class="text-capitalize mb-3">Liên hệ</h4>
 					<div class="divider mb-4"></div>
 
 					<div class="footer-contact-block mb-4">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-email mr-3"></i>
-							<span class="h6 mb-0">Support Available for 24/7</span>
+							<span class="h6 mb-0">Hỗ trợ 24/7</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
+						<h4 class="mt-2"><a href="mailto:support@ptithcm.edu.vn">support@ptithcm.edu.vn</a></h4>
 					</div>
 
 					<div class="footer-contact-block">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-support mr-3"></i>
-							<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
+							<span class="h6 mb-0">Thứ 2 - Thứ 6 : 08:30 - 17:30</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
+						<h4 class="mt-2"><a href="tel:+84-28-38297220">+84-28-38297220</a></h4>
 					</div>
 				</div>
 			</div>

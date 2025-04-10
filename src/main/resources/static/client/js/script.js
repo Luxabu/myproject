@@ -193,4 +193,42 @@
         }
     });
 
-})(jQuery);
+ // Toggle sidebar
+ function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('collapsed');
+  }
+  
+  // Modal functions
+  function openAddModal() {
+    document.getElementById('addModal').classList.add('show');
+  }
+  
+  function closeAddModal() {
+    document.getElementById('addModal').classList.remove('show');
+  }
+  
+  function openEditModal() {
+    document.getElementById('editModal').classList.add('show');
+  }
+  
+  function closeEditModal() {
+    document.getElementById('editModal').classList.remove('show');
+  }
+  
+  // Close modal when clicking outside
+  window.onclick = function(event) {
+    const addModal = document.getElementById('addModal');
+    const editModal = document.getElementById('editModal');
+    
+    if (event.target === addModal) {
+      closeAddModal();
+    }
+    
+    if (event.target === editModal) {
+      closeEditModal();
+    }
+  }
+});
+
+  
